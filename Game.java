@@ -16,6 +16,7 @@ class Game {
     boolean correctAnswer = false; //boolean values that stores whether or not the user has complether the word/array(guessed the letters correctly)
 
     char[] hiddenArray; //copy of the wordArray that will be censored and updated depending on the user's input
+
     char guessedLetter; //the character the user guessed(inputted)
 
     int triesCount = 1; //number of guesses(whether wrong or right)
@@ -59,8 +60,8 @@ class Game {
       //convers the original word/phrase(string) to undercaps and into an array of characters. this allows the array to be updated at specif indexs that match the original word/phrase 
       char[] wordArray = originalWord.toLowerCase().toCharArray();
 
-      // System.out.print("word array: ");
-      // printCharArray(wordArray);
+      System.out.print("word array: ");//uncensored
+      Functions.printCharArray(wordArray); 
 
 
       //initializes an array of the same lentgh as the word array
@@ -82,7 +83,7 @@ class Game {
       //the max allowed wrong quesses is equal to half og the total number of guessable letters(no spaces since the user cannot guess spaces)
       maxWrong =  Math.floor(letterCount/2);
 
-      Functions.hangmanfigure(wrongGuess,maxWrong,correctAnswer);
+      Animation.hangmanfigure(wrongGuess,maxWrong,correctAnswer);
 
       //System.out.println("\nBellow is the censored version of the array: ");
       Functions.printCharArray(hiddenArray);
@@ -136,7 +137,7 @@ class Game {
         correctAnswer = Arrays.equals(wordArray, hiddenArray);
 
         //displays the hangman figure 
-        Functions.hangmanfigure(wrongGuess,maxWrong, correctAnswer);
+        Animation.hangmanfigure(wrongGuess,maxWrong, correctAnswer);
 
 
         //prints the current status of the hiddenArray
