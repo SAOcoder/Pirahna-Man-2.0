@@ -41,7 +41,7 @@ class Animation {
             System.out.println("\t\t\t\t\t\t\t\t--------| ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
-            System.out.println("\t\t\t\t\t\t\t\t|     (ᗒᗣᗕ) \t\"ARE THOSE FUCKING PIRANHAS?!?!?! HELP\"");
+            System.out.println("\t\t\t\t\t\t\t\t|     (ᗒᗣᗕ) \t\"ARE THOSE PIRANHAS?!?!?! HELP\"");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
             System.out.println("\t\t\t\t\t\t\t\t|      /|\\ ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
@@ -88,7 +88,7 @@ class Animation {
             System.out.println("\t\t\t\t\t\t\t\t--------| ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
-            System.out.println("\t\t\t\t\t\t\t\t|     (⁰д⁰) \t\"FUCK I AM A LEFTY HOW AM I GONNA BE MY M--\"");
+            System.out.println("\t\t\t\t\t\t\t\t|     (⁰д⁰) \t\" I AM A LEFTY HOW AM I GONNA--\"");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
             System.out.println("\t\t\t\t\t\t\t\t|      /| ");
             System.out.println("\t\t\t\t\t\t\t\t|        ");
@@ -104,7 +104,7 @@ class Animation {
             System.out.println("\t\t\t\t\t\t\t\t--------| ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
-            System.out.println("\t\t\t\t\t\t\t\t|      (ʘдʘ╬) \t\"U want me to thank u??? i am floating head bitch\"");
+            System.out.println("\t\t\t\t\t\t\t\t|      (ʘдʘ╬) \t\"U want me to thank u??? i am floating head \"");
             System.out.println("\t\t\t\t\t\t\t\t|        ");
             System.out.println("\t\t\t\t\t\t\t\t|        ");
             System.out.println("\t\t\t\t\t\t\t\t|        ");
@@ -118,7 +118,7 @@ class Animation {
             System.out.println("\t\t\t\t\t\t\t\t--------| ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
             System.out.println("\t\t\t\t\t\t\t\t|       | ");
-            System.out.println("\t\t\t\t\t\t\t\t|     (ಠ益ಠ) \t\"U FUCKING IDIOT ILL HAUNT U IF I DIE --\"");
+            System.out.println("\t\t\t\t\t\t\t\t|     (ಠ益ಠ) \t\"U  IDIOT ILL HAUNT U IF I DIE --\"");
             System.out.println("\t\t\t\t\t\t\t\t|        ");
             System.out.println("\t\t\t\t\t\t\t\t|        ");
             System.out.println("\t\t\t\t\t\t\t\t|        ");

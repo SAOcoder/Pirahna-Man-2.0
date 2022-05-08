@@ -158,12 +158,12 @@ class Functions {
     //if the user guesses the word correctly they get congratulated
     if(correctAnswer == true){
 
-      System.out.println("\nHOLD UP?! IT DOESNT MATTER HOW MANY GUESSES U GOT LEFT BECAUSE ...*drumRoll*... \n\t\t\t\t\t\tYOU DID IT!!!\n\t\t\t\t\tU are so smart piggy <3");
+      System.out.println("\nHOLD UP?! IT DOESNT MATTER HOW MANY GUESSES U HAVE LEFT BECAUSE ...*drumRoll*... \n\t\t\t\t\t\tYOU DID IT!!!\n\t\t\t\t\tU are so smart <3");
     }
     else{
       System.out.println("\n... Struggling huh? PFFFFFFF");
 
-      System.out.println("\n\t\t\t\t\t\t\t\t\tThe answer was [" + originalWord + "] btw");
+      System.out.println("\n\t\t\t\t\t\t\t\t\tThe answer was [" + originalWord + "]");
     }
         
 
