@@ -6,9 +6,9 @@ class Main {
   
   public static void main(String[] args) {
 
-  File f = new File("folder.txt");
-  File f2 = new File("folder2.txt");
-  File f3 = new File("bugs.txt");
+  File f1 = new File("phrases.txt");
+  File f2 = new File("valentine.txt");
+  File f3 = new File("bugs.txt"); //
 
  /* int rounds = 3;
 
@@ -28,7 +28,7 @@ class Main {
   }
 */
     System.out.println("\n\n\n\nFINAL ROUND\n");
-    Game.game(f3);
+    Game.game(f1);
 
   }
   
