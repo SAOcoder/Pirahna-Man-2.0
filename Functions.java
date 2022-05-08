@@ -16,14 +16,14 @@ class Functions {
   
   //converts each non blank character in the hidden array into an underscore. allows the blank characters to remain in same indexs.
   public static void censor(char[] c){
+      
     for(int i = 0; i < c.length; i++){
-      if(c[i] != ' '){
+    
+      if(!(c[i] == '\''||c[i] == '-'||c[i] == ' ' ||c[i] == '\\' || c[i] == '/'|| c[i] == '#'|| c[i] == '_'|| c[i] == '?'|| c[i] == '!')){ 
+
         c[i] = '_';
       }
-
-      else{
-        c[i] = c[i];
-      }
+     
     }
 
     System.out.println();
@@ -31,6 +31,8 @@ class Functions {
 
   //display an array of characters
   public static void printCharArray(char[] c){
+    
+     System.out.println("\n");
     
       for(int i = 0; i < c.length;i++){
         System.out.print(c[i] + " ");

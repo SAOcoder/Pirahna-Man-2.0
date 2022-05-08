@@ -85,6 +85,7 @@ class Game {
 
       Animation.hangmanfigure(wrongGuess,maxWrong,correctAnswer);
 
+    
       //System.out.println("\nBellow is the censored version of the array: ");
       Functions.printCharArray(hiddenArray);
 
