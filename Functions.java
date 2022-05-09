@@ -19,7 +19,7 @@ class Functions {
       
     for(int i = 0; i < c.length; i++){
     
-      if(!(c[i] == '\''||c[i] == '-'||c[i] == ' ' ||c[i] == '\\' || c[i] == '/'|| c[i] == '#'|| c[i] == '_'|| c[i] == '?'|| c[i] == '!')){ 
+      if((c[i] != '\'' && c[i] != '-' && c[i] != ' ' && c[i] != '\\' && c[i] != '/' && c[i] != '#' && c[i] != '_' && c[i] != '?' && c[i] != '!')){ 
 
         c[i] = '_';
       }
@@ -65,6 +65,24 @@ class Functions {
 
     return hArray;
   }
+
+
+
+      //method counts the number of non blank characters in an array of charactes and returns the result as an int
+      public static int count(char[] cArray){
+        int count = 0;
+        
+        for(int c = 0; c < cArray.length; c++){
+          if(cArray[c] != ' ' && !Character.isLetter(cArray[c]) ){
+            count++;
+          }
+        }
+
+        System.out.println("\n" + count + " letters left to guess");
+
+        return count;
+
+      }
 
 
   //method ask the user to be my valentine. user will be re-asked until 'y' is inputted
@@ -115,22 +133,6 @@ class Functions {
             
 
             sayYes.close();
-      }
-
-      //method counts the number of non blank characters in an array of charactes and returns the result as an int
-      public static int count(char[] cArray){
-        int count = 0;
-        
-        for(int c = 0; c < cArray.length; c++){
-          if(cArray[c] != ' ' && !Character.isLetter(cArray[c]) ){
-            count++;
-          }
-        }
-
-        System.out.println("\n" + count + " letters left to guess");
-
-        return count;
-
       }
 
 
